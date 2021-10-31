@@ -33,7 +33,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="\tCountry Name:"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="18sp" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="\tCapital Name:"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="18sp" />
 
         <TextView
@@ -51,7 +51,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="\tOfficial Anthem:"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="18sp" />
 
         <TextView
@@ -60,7 +60,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="\tPopulation:"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="18sp" />
 
         <TextView
@@ -69,7 +69,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="\tOfficial Languages:"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="18sp" />
     </LinearLayout>
 

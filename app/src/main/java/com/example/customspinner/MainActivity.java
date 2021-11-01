@@ -54,21 +54,21 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
        if (position!=0)
        {
-           country.setText("\tCountry Name: " + countryList[position]);
-           capital.setText("\tCapital Name: " + capitalList[position]);
-           anthem.setText("\tOffical Anthem Name: "+ anthemList[position-1]);
-           popu.setText("\tPopulation: " + popuList[position-1]);
-           lang.setText("\tOfficial Language/s: " + languageList[position-1]);
+           country.setText("Country Name: " + countryList[position]);
+           capital.setText("Capital Name: " + capitalList[position]);
+           anthem.setText("Offical Anthem Name: "+ anthemList[position-1]);
+           popu.setText("Population: " + popuList[position-1]);
+           lang.setText("Official Language/s: " + languageList[position-1]);
            easter_egg = true;
 
        }
        else if (easter_egg)
            {
-               country.setText("\tAlbert");
-               capital.setText("\tCan");
-               anthem.setText("\tI");
-               popu.setText("\tGet");
-               lang.setText("\t100");
+               country.setText("Albert");
+               capital.setText("Can");
+               anthem.setText("I");
+               popu.setText("Get");
+               lang.setText("100");
            }
 
 
